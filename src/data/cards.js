@@ -1,4 +1,4 @@
-const cards = [
+const CARDS = [
     { 
         "condition" : "For every loli character in the last episode of anime you watched",
         "cost" : "take a sip"
