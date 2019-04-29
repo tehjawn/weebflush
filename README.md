@@ -1,4 +1,6 @@
-﻿# weebflush
+﻿![WeebFlush Logo](https://tehjawn.github.io/weebflush/webflush_logo.png)
+
+# weebflush
 
 ---
 
