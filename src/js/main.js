@@ -1,4 +1,6 @@
 
+let cards = CARDS;
+
 function cycleCard() {
   const cardContent = document.getElementById('cardContent');
   const randomCardIndex = Math.floor(Math.random()*cards.length);
