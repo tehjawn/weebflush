@@ -3,11 +3,15 @@ const clickLogoThreshold = 3;
 let clickLogoCounter = 0;
 
 function playSound(action){
-    console.log('sound')
     switch(action){
       case 'click logo':
         logoClickSoundTrigger();
         break;
+
+    case 'finish game':
+        loadAndPlayAudio(AUDIO.death);
+        break;
+        
       default:
         return;
     }
