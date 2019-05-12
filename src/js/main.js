@@ -5,7 +5,8 @@ function cycleCard() {
   const cardContent = document.getElementById('cardContent');
   const randomCardIndex = Math.floor(Math.random()*cards.length);
   const randomCard = cards.splice(randomCardIndex, 1)[0];
-  const randomCardText = `${randomCard.condition}, ${randomCard.cost}` ;
+  // const randomCardText = `${randomCard.condition}, ${randomCard.cost}` ;
+  const randomCardText = `${randomCard.text}` ;
 
   if (cards.length > 0){
     responsiveVoice.speak(randomCardText);    
