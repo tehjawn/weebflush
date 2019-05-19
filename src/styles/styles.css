@@ -42,7 +42,7 @@ body {
 .cards-ctn {
   max-width: 100%;
   display: flex;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .card-ctn {
