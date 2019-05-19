@@ -39,9 +39,15 @@ body {
 
 /* Cards */
 
+.cards-ctn {
+  max-width: 100%;
+  display: flex;
+  overflow: scroll;
+}
+
 .card-ctn {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 16px;
